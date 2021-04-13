@@ -1,0 +1,100 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(0deg, rgb(12, 16, 37) 22%, rgb(39, 55, 126) 100%);
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(28%);
+    font-family: 'lato', sans-serif;
+    
+    
+    
+}
+
+.musicInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.Nav {
+
+    padding-top: 40px;
+    
+}
+
+#artist {
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 20px;
+    opacity: 0.7;
+}
+
+#title {
+    font-weight: 400;
+    font-size: 25px; 
+}
+
+#author {
+  
+    font-size: 12px;
+    margin-top: 120px;
+    color: rgb(255, 255, 255);
+    opacity: 0.5;
+}
+
+.progress {
+    height: 4px;
+    width: 350px;
+    background: white;
+    border-radius: 5px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.progression {
+    background-color: teal;
+    border-radius: 5px;
+    height: 100%;
+    width: 0%;
+    outline: none;
+}
+
+
+
+
+button {
+    margin: 0 5px;
+    background: none;
+    color: white;
+    font-size: 24px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 15px;
+}
+
+
+
+img {
+    border-radius: 50%;
+    width: 250px;
+
+    
+}
+
