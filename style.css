@@ -18,7 +18,7 @@ body {
     color: white;
     align-items: center;
     justify-content: center;
-    transform: translateY(28%);
+    transform: translateY(80px);
     font-family: 'lato', sans-serif;
     
     
@@ -53,14 +53,14 @@ body {
 #author {
   
     font-size: 12px;
-    margin-top: 120px;
+    padding-top: 7rem;
     color: rgb(255, 255, 255);
     opacity: 0.5;
 }
 
 .progress {
     height: 4px;
-    width: 350px;
+    width: 250px;
     background: white;
     border-radius: 5px;
     margin-top: 50px;
