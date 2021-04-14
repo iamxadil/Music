@@ -53,11 +53,15 @@ function loadSong(song) {
   if (song == "Hold On") {
     artist.innerText = "Chord Overstreet";
   }
-  if (song == "Mansion" || "Just Like You") {
+  if (song == "Mansion") {
     artist.innerText = "NF";
   }
   if (song == "Shape Of My Heart") {
     artist.innerText = "Sting";
+  }
+
+  if (song == "Just Like You") {
+    artist.innerText = "NF";
   }
 }
 
