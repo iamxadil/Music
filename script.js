@@ -21,11 +21,13 @@ const songs = [
   "Saturn",
   "Hold On",
   "Mansion",
+  "Shape Of My Heart",
+  "Just Like You",
 ];
 
 //Track of songs
 
-let index = 0;
+let index = 5;
 
 //Loading
 
@@ -51,8 +53,11 @@ function loadSong(song) {
   if (song == "Hold On") {
     artist.innerText = "Chord Overstreet";
   }
-  if (song == "Mansion") {
+  if (song == "Mansion" || "Just Like You") {
     artist.innerText = "NF";
+  }
+  if (song == "Shape Of My Heart") {
+    artist.innerText = "Sting";
   }
 }
 
