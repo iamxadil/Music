@@ -13,13 +13,16 @@ const container = document.querySelector(".container");
 //Array
 
 const songs = [
-  "Wake Up",
-  "Crash",
-  "Circles",
-  "Black Magic",
-  "One Way Or Another",
   "Saturn",
+  "One Way Or Another",
+  "Where Do Lovers Go",
+  "Broken",
   "Hold On",
+  'Experience',
+  "Black Magic",
+  "Crash",
+  "Wake Up",
+  "Circles",
   "Mansion",
   "Shape Of My Heart",
   "Just Like You",
@@ -27,7 +30,7 @@ const songs = [
 
 //Track of songs
 
-let index = 5;
+let index = 0;
 
 //Loading
 
@@ -62,6 +65,18 @@ function loadSong(song) {
 
   if (song == "Just Like You") {
     artist.innerText = "NF";
+  }
+
+  if (song == "Where Do Lovers Go") {
+    artist.innerText = "Ghostly Kisses";
+  }
+
+  if (song == "Broken") {
+    artist.innerText = "Isak Danielson";
+  }
+
+  if (song == "Experience"){
+    artist.innerText = 'Ludovico Einaudi'
   }
 }
 
